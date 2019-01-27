@@ -464,8 +464,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "perfecto-mobile.prometheus-mac";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "prometheus-mac-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "prometheus-mac/prometheus-mac-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 4.0;
 				USER_HEADER_SEARCH_PATHS = "";
 				VALID_ARCHS = "i386 x86_64";
@@ -498,7 +499,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "perfecto-mobile.prometheus-mac";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "prometheus-mac-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "prometheus-mac/prometheus-mac-Bridging-Header.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 4.0;
 				USER_HEADER_SEARCH_PATHS = "";
 				VALID_ARCHS = "i386 x86_64";
